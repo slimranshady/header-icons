@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  vertical-align: middle;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding-bottom: .5em;
+}
+
+nav {
+  font-size: 1.125rem;
+  margin: 0;
+  background-color: #d05c2e;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
+  padding-top: .5em;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: .5em 5em;
+  border: 1px solid #a63f38;
+}
+
+ul {
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  float: left;
+  width: 33.3333%;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
+.left {
+  float: left;
+  width: 9%;
+}
+
+.right {
+  float: right;
+  width: 9%;
+}
