@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   vertical-align: middle;
   text-align: center;
 }
@@ -54,6 +54,7 @@ nav li {
 a:hover {
   background-color: #a63f38;
 }
+
 .left {
   float: left;
   width: 9%;
